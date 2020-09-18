@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistem Pegawai</title>
+    <link rel="stylesheet" href="assets/style1.css">
+</head>
+<body>
+    <section>
+        <div>
+            <header class="header">
+                <div class="logo">
+                    <img src="https://i.ibb.co/Jm2WqVx/Logo-Undiksha.png" width="150">
+                </div>
+                    <nav class="nav">
+                    <h1>
+                        Universitas Pendidikan Ganesha
+                    </h1>
+                    <ul>
+                        <li><a href="#logout">LOG OUT</a></li>
+                    </ul>
+                    </nav>
+            </header>            
+        </div class="content">
+        <div class="wrapper">
+                <aside class="sidebar">
+                    <div style="padding: 10px;">
+                    <b>Menu</b><br>
+                    <hr>
+                    <a href="#">Home</a><br />
+                    <a href="Biodata Diri.html">Biodata</a><br />
+                    <a href="#">Update Biodata</a><br />
+                    <a href="#">Contact</a><br />
+                    </div>
+                </aside>
+          
+            <h1>Form Update Data Diri Pegawai</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" value="" placeholder="Tulisakan Nama Anda" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td> <input type="password" name="password" placeholder="Tulisakan Password Anda" /></td>
+                     </tr>
+                     <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td><input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki
+                            <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobi</td>
+                        <td>:</td>
+                        <td><input type="checkbox" name="hobi_Olahraga" /> Olahraga
+                            <input type="checkbox" name="hobi_Membaca" /> Membaca
+                            <input type="checkbox" name="hobi_Mancing" /> Mancing
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Asal Kota</td>
+                        <td>:</td>
+                        <td> <select name="asal_kota">
+                                <option value="Denpasar"> Denpasar</option>
+                                <option value="Singaraja">Singaraja</option>
+                                <option value="Amlapura" >Amlapura</option>
+                                <option value="Tabanan" >Tabanan</option>
+                                <option value="Negara" >Negara</option>
+                                <option value="Bangli" >Bangli</option>
+                                <option value="Semarapura" selected>Semarapura</option>
+                                <option value="Gianyar" >Gianyar</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Komentar</td>
+                        <td>:</td>
+                        <td><textarea name="komentar" rows="10" cols="25"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right"><button type="submit">simpan</button></td>
+                        <td colspan="3" align="right"><button type="reset">reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    
+        </div>
+            <footer class="footer">
+                <font color="white">Copyright &#169; Komang Bayu</white>
+            </footer>
+        </div>
+    </section>
+    </body>
+</html>    
